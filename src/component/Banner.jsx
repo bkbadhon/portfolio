@@ -13,8 +13,8 @@ const Banner = () => {
                 <h2 className='webkit uppercase font-bold text-7xl' data-aos="fade-left" data-aos-duration="1500">Macwan...</h2>
                 <h3 className='font-semibold text-3xl my-4' data-aos="fade-right" data-aos-duration="1500">Web Designer <span className='font-thin'>based in </span>USA</h3>
                 <button className='bg-gradient-to-r from-[#af2676] to-[#441b45] flex gap-2 p-[12px] my-8 px-8 font-semibold' data-aos="fade-left" data-aos-duration="1500"><a className='flex items-center' href="#Contact">Work with ME <IoIosArrowRoundForward  className='-rotate-45 text-2xl'/></a> </button>
-                <div className='flex gap-8' data-aos="fade-up" data-aos-duration="1500">
-                    <h2 className='flex gap-2 items-center text-xl'><IoIosPhonePortrait />+123 45 666 7788</h2>
+                <div className='md:flex gap-8' data-aos="fade-up" data-aos-duration="1500">
+                    <h2 className='flex gap-2 my-4 items-center text-xl'><IoIosPhonePortrait />+123 45 666 7788</h2>
                     <h3 className='flex gap-2 items-center text-xl'><IoMail />mccandesigner@gmail.com</h3>
                 </div>
             </div>

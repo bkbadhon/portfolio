@@ -47,13 +47,13 @@ const Contact = () => {
                         <iframe className='opacity-80' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8658970834604!2d144.96623407569498!3d-37.8166099719749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato%20Pty%20Ltd!5e0!3m2!1sen!2sbd!4v1726914296251!5m2!1sen!2sbd" width="450" height="200" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <div className='my-16 p-16 bg-gradient-to-r from-[#af2676] to-[#441b45]' data-aos="fade-up" data-aos-duration="1500">
+                <div className='my-16 md:p-16 p-4 bg-gradient-to-r from-[#af2676] to-[#441b45]' data-aos="fade-up" data-aos-duration="1500">
                     <h2 className='text-4xl mb-2 font-bold'>Got Ideas? We have got the skills. Lets team up.</h2>
                     <h2>Tell us more about yourself and what you are got in mind.</h2>
                     <div
 
                     >
-                        <div className='flex gap-4 text-white' data-aos="fade-right" data-aos-duration="1500">
+                        <div className='md:flex gap-4 text-white' data-aos="fade-right" data-aos-duration="1500">
                             <label className="form-control w-full">
                                 <div className="label">
                                     <span className=" uppercase">Your Name:</span>
@@ -103,8 +103,8 @@ const Contact = () => {
 
 
             </div>
-            <div className='w-11/12 flex justify-between items-center my-4 mx-auto'>
-                <div className='flex items-center gap-4' data-aos="fade-right" data-aos-duration="1500">
+            <div className='w-10/12 flex justify-between items-center my-4 mx-auto'>
+                <div className='md:flex items-center gap-4' data-aos="fade-right" data-aos-duration="1500">
                     <img className='w-12 h-12 rounded-full' src={img} alt="" />
                     <h2 className='font-semibold text-xl'>lilon Williamson</h2>
                 </div>

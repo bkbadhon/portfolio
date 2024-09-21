@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="flex">
-      <nav className="hidden lg:flex flex-col fixed inset-y-0 left-0 w-64 bg-black text-white shadow-lg z-50 justify-between">
+      <nav className="hidden lg:flex flex-col fixed inset-y-0 left-0 w-64 text-white shadow-lg z-50 justify-between">
         <div className="p-4">
           <h2 className="text-3xl font-semibold">LiCacw.</h2>
           <ul className="mt-12 space-y-4">
@@ -58,7 +58,7 @@ function App() {
       </div>
 
       <button
-        className="fixed top-4 left-4 z-50 p-2 bg-gray-200 rounded md:hidden"
+        className="fixed text-2xl top-0 left-2 z-50 p-2 rounded md:hidden"
         onClick={toggleNavbar}
       >
         {isNavVisible ? <AiOutlineClose /> : <AiOutlineMenu />}

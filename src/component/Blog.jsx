@@ -133,7 +133,7 @@ const Blog = () => {
                     </div>
                 </dialog>
                 <div onClick={() => document.getElementById('modal_4').showModal()} className='border-b-2 border-gray-700 py-2'>
-                    <img className='hover:scale-105 duration-300' data-aos="zoom-in-up" data-aos-duration="1500" src={blog4} alt="" />
+                    <img className='hover:scale-105 duration-300 ' data-aos="zoom-in-up" data-aos-duration="1500" src={blog4} alt="" />
                     <div className='my-4' data-aos="fade-up" data-aos-duration="1500">
                         <h2 className='text-lg mb-4 font-bold'>10 July, 2022</h2>
                         <h2 className='text-2xl font-bold'>12 unique example of portfolio websites</h2>

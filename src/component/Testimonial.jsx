@@ -32,7 +32,7 @@ const Testimonial = () => {
                                 <h3 className='font-bold'>-Ema Watson</h3>
                                 <p className='text-gray-200'>Chief Executive Officer, Brazil</p>
                             </div>
-                            <div className='w-56'>
+                            <div className='md:w-56'>
                                 <img className='' data-aos="zoom-in-up" data-aos-duration="1500" src={img1} alt="" />
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Testimonial = () => {
                                 <h3 className='font-bold'>-Ema Watson</h3>
                                 <p className='text-gray-200'>Chief Executive Officer, Brazil</p>
                             </div>
-                            <div className='w-56
+                            <div className='md:w-56
                         '>
                                 <img className='' data-aos="zoom-in-up" data-aos-duration="1500" src={img2} alt="" />
                             </div>
@@ -51,7 +51,7 @@ const Testimonial = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-4 my-8' data-aos="fade-left" data-aos-duration="2500">
+            <div className='grid md:grid-cols-4 grid-cols-2 my-8' data-aos="fade-left" data-aos-duration="2500">
                 <img src={brand1} alt="" />
                 <img src={brand2} alt="" />
                 <img src={brand3} alt="" />
