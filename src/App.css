@@ -1,0 +1,26 @@
+/* App.css */
+
+.navbar {
+    width: 16rem; /* 64 units (tailwind w-64) */
+    min-height: 100vh;
+    background-color: black;
+    position: fixed;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar.hidden {
+    transform: translateX(-100%);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      position: absolute; /* Change to absolute for mobile */
+      transform: translateX(-100%); /* Initially hidden */
+      z-index: 10; /* Ensure it's above other content */
+    }
+  
+    .navbar.active {
+      transform: translateX(0); /* Show when active */
+    }
+  }
+  

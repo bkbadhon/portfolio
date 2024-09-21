@@ -1,0 +1,10 @@
+.webkit{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #af2676;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 80px;
+}
+.name{
+    font-size: 80px;
+}
